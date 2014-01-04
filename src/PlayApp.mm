@@ -10,33 +10,25 @@
 
 void PlayApp::setup() {
 	ofSetLogLevel(OF_LOG_VERBOSE);
-    ofBackground(50, 0);
-    
-    ofDisableArbTex(); // we need GL_TEXTURE_2D for our models coords.
+    ofBackground(200, 200, 250);
     
 	glEnable(GL_DEPTH_TEST);
-    
-    glShadeModel(GL_SMOOTH); //some model / light stuff
-    light.enable();
-    ofEnableSeparateSpecularLight();
 
+    light.enable();
     loadModel();
 }
 void PlayApp::loadModel() {
     ofPoint modelPosition(ofGetWidth() / 2, (float)ofGetHeight() * 0.75 , 0);
     model.loadModel("ricecakes.3ds");
     model.setPosition(modelPosition.x, modelPosition.y, modelPosition.z);
-    ofDisableSeparateSpecularLight();
+    ofSetColor(250, 250, 250);
 }
 void PlayApp::update(){
-
+    model.update();
 }
 
 //--------------------------------------------------------------
 void PlayApp::draw() {
-    ofSetColor(255);
-    ofEnableAlphaBlending();
-    
 	glEnable(GL_DEPTH_TEST);
     ofPushMatrix();
     ofTranslate(model.getPosition().x, model.getPosition().y, 0);

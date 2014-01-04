@@ -14,11 +14,9 @@
 		53F323EB10A20EDB00E0DAE4 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F323EA10A20EDB00E0DAE4 /* OpenAL.framework */; };
 		BB16EBD20F2B2A9500518274 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB16EBD10F2B2A9500518274 /* OpenGLES.framework */; };
 		BB16EBD90F2B2AB500518274 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB16EBD80F2B2AB500518274 /* QuartzCore.framework */; };
-		BB24DDCA10DA781C00E9C588 /* ofxiphone-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB24DDC910DA781C00E9C588 /* ofxiphone-Info.plist */; };
 		BBE5EAB80F49AD8400F28951 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE5EAB70F49AD8400F28951 /* AudioToolbox.framework */; };
 		D743A2FE187710D10095E5FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D743A2FD187710D10095E5FF /* Images.xcassets */; };
 		D743A302187711570095E5FF /* ricecake600.png in Resources */ = {isa = PBXBuildFile; fileRef = D743A300187711570095E5FF /* ricecake600.png */; };
-		D743A303187711570095E5FF /* ricecakes.3ds in Resources */ = {isa = PBXBuildFile; fileRef = D743A301187711570095E5FF /* ricecakes.3ds */; };
 		D743A306187711E00095E5FF /* MainView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D743A305187711E00095E5FF /* MainView.storyboard */; };
 		D743A309187712110095E5FF /* MainViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = D743A308187712110095E5FF /* MainViewController.mm */; };
 		D743A36C18771BC20095E5FF /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = D743A36B18771BC20095E5FF /* AppDelegate.mm */; };
@@ -35,14 +33,12 @@
 		D7DFB41E1877B48300E03F6B /* ofxAssimpAnimation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7DFB40F1877B48300E03F6B /* ofxAssimpAnimation.cpp */; };
 		D7DFB41F1877B48300E03F6B /* ofxAssimpMeshHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7DFB4111877B48300E03F6B /* ofxAssimpMeshHelper.cpp */; };
 		D7DFB4201877B48300E03F6B /* ofxAssimpModelLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7DFB4131877B48300E03F6B /* ofxAssimpModelLoader.cpp */; };
-		E41D3ED713B38FB500A75A5D /* Project.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E41D3ED613B38FB500A75A5D /* Project.xcconfig */; };
-		E41D3EE613B3906D00A75A5D /* CoreOF.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E41D3EE513B3906D00A75A5D /* CoreOF.xcconfig */; };
+		D7F0DD8E18786835005E7E85 /* ricecakes.3ds in Resources */ = {isa = PBXBuildFile; fileRef = D7F0DD8D18786835005E7E85 /* ricecakes.3ds */; };
 		E41D400B13B39D2100A75A5D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E41D400613B39D2100A75A5D /* AVFoundation.framework */; };
 		E41D400C13B39D2100A75A5D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E41D400713B39D2100A75A5D /* CoreMedia.framework */; };
 		E41D400D13B39D2100A75A5D /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E41D400813B39D2100A75A5D /* CoreVideo.framework */; };
 		E41D400E13B39D2100A75A5D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E41D400913B39D2100A75A5D /* MapKit.framework */; };
 		E41D421413B3A95300A75A5D /* libofxiPhone_iphoneos_Debug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E41D410213B3A0D800A75A5D /* libofxiPhone_iphoneos_Debug.a */; };
-		E4A823A412561BE3002F86A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A823A312561BE3002F86A2 /* CoreGraphics.framework */; };
 		E4D8936E11527B74007E1F53 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = E4D8936B11527B74007E1F53 /* main.mm */; };
 /* End PBXBuildFile section */
 
@@ -77,7 +73,6 @@
 		BBE5EAB70F49AD8400F28951 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		D743A2FD187710D10095E5FF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MoveRiceCakes/Images.xcassets; sourceTree = "<group>"; };
 		D743A300187711570095E5FF /* ricecake600.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ricecake600.png; path = bin/data/ricecake600.png; sourceTree = "<group>"; };
-		D743A301187711570095E5FF /* ricecakes.3ds */ = {isa = PBXFileReference; lastKnownFileType = file; name = ricecakes.3ds; path = bin/data/ricecakes.3ds; sourceTree = "<group>"; };
 		D743A305187711E00095E5FF /* MainView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainView.storyboard; path = src/gui/MainView.storyboard; sourceTree = "<group>"; };
 		D743A307187712110095E5FF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = src/gui/MainViewController.h; sourceTree = "<group>"; };
 		D743A308187712110095E5FF /* MainViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MainViewController.mm; path = src/gui/MainViewController.mm; sourceTree = "<group>"; };
@@ -133,6 +128,7 @@
 		D7DFB4131877B48300E03F6B /* ofxAssimpModelLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxAssimpModelLoader.cpp; sourceTree = "<group>"; };
 		D7DFB4141877B48300E03F6B /* ofxAssimpModelLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxAssimpModelLoader.h; sourceTree = "<group>"; };
 		D7DFB4151877B48300E03F6B /* ofxAssimpUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxAssimpUtils.h; sourceTree = "<group>"; };
+		D7F0DD8D18786835005E7E85 /* ricecakes.3ds */ = {isa = PBXFileReference; lastKnownFileType = file; name = ricecakes.3ds; path = bin/data/ricecakes.3ds; sourceTree = "<group>"; };
 		E41D3ED613B38FB500A75A5D /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
 		E41D3EE513B3906D00A75A5D /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../libs/openFrameworksCompiled/project/ios/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
 		E41D400613B39D2100A75A5D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -160,7 +156,6 @@
 				BBE5EAB80F49AD8400F28951 /* AudioToolbox.framework in Frameworks */,
 				53F323EB10A20EDB00E0DAE4 /* OpenAL.framework in Frameworks */,
 				5326AEA810A23A0500278DE6 /* CoreLocation.framework in Frameworks */,
-				E4A823A412561BE3002F86A2 /* CoreGraphics.framework in Frameworks */,
 				E41D400B13B39D2100A75A5D /* AVFoundation.framework in Frameworks */,
 				E41D400C13B39D2100A75A5D /* CoreMedia.framework in Frameworks */,
 				E41D400D13B39D2100A75A5D /* CoreVideo.framework in Frameworks */,
@@ -253,8 +248,8 @@
 		D743A2FF1877113B0095E5FF /* files */ = {
 			isa = PBXGroup;
 			children = (
+				D7F0DD8D18786835005E7E85 /* ricecakes.3ds */,
 				D743A300187711570095E5FF /* ricecake600.png */,
-				D743A301187711570095E5FF /* ricecakes.3ds */,
 			);
 			name = files;
 			sourceTree = "<group>";
@@ -436,6 +431,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0500;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
 						DevelopmentTeam = 4XX8559747;
@@ -482,15 +478,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB24DDCA10DA781C00E9C588 /* ofxiphone-Info.plist in Resources */,
 				D7DFB41B1877B48300E03F6B /* aiVector3D.inl in Resources */,
 				D7DFB4161877B48300E03F6B /* install.xml in Resources */,
 				D743A2FE187710D10095E5FF /* Images.xcassets in Resources */,
 				D7DFB41A1877B48300E03F6B /* aiMatrix4x4.inl in Resources */,
-				E41D3ED713B38FB500A75A5D /* Project.xcconfig in Resources */,
-				E41D3EE613B3906D00A75A5D /* CoreOF.xcconfig in Resources */,
 				D743A302187711570095E5FF /* ricecake600.png in Resources */,
-				D743A303187711570095E5FF /* ricecakes.3ds in Resources */,
+				D7F0DD8E18786835005E7E85 /* ricecakes.3ds in Resources */,
 				D7DFB4191877B48300E03F6B /* aiMatrix3x3.inl in Resources */,
 				D7DFB4171877B48300E03F6B /* aiColor4D.inl in Resources */,
 				D7DFB4181877B48300E03F6B /* aiMaterial.inl in Resources */,
@@ -587,7 +580,6 @@
 			baseConfigurationReference = E41D3ED613B38FB500A75A5D /* Project.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
@@ -608,7 +600,7 @@
 					../../../addons/ofx3DModelLoader/src/3DS,
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
@@ -622,7 +614,6 @@
 			baseConfigurationReference = E41D3ED613B38FB500A75A5D /* Project.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
